@@ -3,50 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>우리 회사 홈페이지</title>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>우리 회사 홈페이지</title>
-    
+    <title>LTW - [제품 이름]</title>
     <link rel="stylesheet" href="style.css">
 </head>
-    </head>
 <body>
+
     <header>
-        <h1>[우리 회사 이름]</h1>
-        <p>혁신적인 솔루션을 제공합니다.</p>
+        <div class="container">
+            <h1>LTW</h1>
+        </div>
     </header>
 
     <main>
-        <section id="about">
-            <h2>회사 소개</h2>
-            <p>여기에 회사 소개 문구를 자세히 적습니다.</p>
+        <section id="product-intro" class="hero">
+            <div class="container">
+                <h2>[제품의 핵심 슬로건 또는 문구]</h2>
+                <p class="subtitle">[제품에 대한 간략한 한두 줄 설명]</p>
+                <img src="[제품 이미지 주소.png]" alt="[제품 이름] 이미지" class="product-image">
+            </div>
         </section>
 
-        <section id="services">
-            <h2>주요 서비스</h2>
-            <ul>
-                <li>서비스 1</li>
-                <li>서비스 2</li>
-            </ul>
+        <section id="performance">
+            <div class="container">
+                <h3>주요 성능 및 특징</h3>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <h4>더 건강하게</h4>
+                        <p>[특허기술로 중금속을 모아 걸러냅니다.]</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>더 편리하게</h4>
+                        <p>[어렵지 않게 설치하며 탈부착이 쉽습니다.]</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>더 확실하게</h4>
+                        <p>[다른 제품들 보다 확실합니다.]</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <div class="container">
+                <h3>가격 정보</h3>
+                <div class="price-box">
+                    <p class="product-name">[제품 이름]</p>
+                    <p class="price">₩[제품 가격]</p>
+                    <p class="price-description">[가격에 대한 부가 설명. 예: 부가세 포함, 평생 라이선스 등]</p>
+                    <a href="#contact" class="cta-button">지금 바로 문의하기</a>
+                </div>
+            </div>
         </section>
 
         <section id="contact">
-            <h2>문의하기</h2>
-            <p>아래 연락처로 언제든지 문의해 주세요.</p>
-            <ul>
-                <li>전화: <a href="tel:010-1234-5678">010-1234-5678</a></li>
-                
-                <li>이메일: <a href="mailto:contact@mycompany.com">contact@mycompany.com</a></li>
-                
-                <li>카카오톡: <a href="[내 카카오톡 채널 주소]" target="_blank">실시간 상담하기</a></li>
-            </ul>
+            <div class="container">
+                <h3>문의하기</h3>
+                <p>제품에 대해 궁금한 점이 있으신가요? 언제든지 연락주세요.</p>
+                <ul class="contact-list">
+                    <li><strong>전화:</strong> <a href="tel:[회사 전화번호]">[회사 전화번호]</a></li>
+                    <li><strong>이메일:</strong> <a href="mailto:[회사 이메일]">[회사 이메일]</a></li>
+                </ul>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 [우리 회사 이름]. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2025 LTW. All Rights Reserved.</p>
+        </div>
     </footer>
 
 </body>
